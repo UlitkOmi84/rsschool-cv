@@ -1,0 +1,102 @@
+* , *::before , *::after{
+    box-sizing: border-box;
+    }
+    body{
+    box-sizing: border-box;
+    background-color: rgb(196, 191, 191);
+    }
+    .header_content{
+    display: flex;
+    padding-left: 10px;
+    user-select: none;
+    }
+    .nav_header{
+    display:flex;
+    margin-top: 0px;
+    }
+    .nav_header li{
+    padding: 10px;
+    list-style: none;
+    }
+    a{
+    text-decoration: none;
+    }
+    .container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(230, 201, 177);
+    }
+    .header_title{
+    flex:1;
+    text-align: center;
+    padding-top: 60px;
+    }
+    h1,h2,h3,p,body{margin: 0;
+    padding: 0;
+    }
+    .github{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .my_github{
+    display: flex;
+    align-items: center;
+    }
+    .inner_main{
+    display: flex;
+    padding-top: 25px;
+    }
+    .round{
+    border-radius:220px;
+    object-fit: cover;
+    }
+    p{
+    font-size: 23px;
+    }
+    html{
+    scroll-behavior: smooth;
+    }
+    li{
+    padding-bottom: 5px;
+    list-style: none;
+    }
+    .A2{
+    text-align: center;
+    padding-top: 10px;
+    }
+    .hh{
+    background-color: rgb(255, 255, 255);
+    }
+    h1{
+    font-size: 60px;
+    }
+    h2{
+    font-size: 25px;
+    padding-left: 20px; 
+    }
+    .txt{
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+    .left_side{
+    text-align: center;
+    padding-left: 40px;
+    }
+    ul{
+    padding-left: 30px;
+    }
+    .skill{
+    padding-top: 50px;
+    }
+    .eng{
+    padding-top: 50px;
+    }
+    .line{
+    border-bottom: 2px solid rgb(12, 14, 13);
+    }
+    .aboutme{
+    padding: 15px;
+    }
+    .ff{font-style: italic;
+    }
